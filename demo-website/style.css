@@ -1,0 +1,68 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
+}
+
+.landing-page {
+    height: 100vh;
+    width: 100vw;
+    background-image: url('https://i.pinimg.com/originals/a4/a1/b8/a4a1b88e14aa1d5e54d7ffedb2989875.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+nav {
+    width: 100vw;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+.nav_left {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    margin: 10px;
+}
+
+.nav_link {
+    display: flex;
+    align-items: center;
+    padding: 10px
+}
+
+.nav_link:hover {
+    color: rgba(158, 39, 39, 0.678)
+}
+
+.nav_link p {
+    font-size: 20px;
+    padding-left: 10px;
+    font-weight: 600;
+}
+
+.nav_right {
+    padding: 10px;
+}
+
+ion-icon {
+    font-size: 24px;
+}
+
+.wrapper {
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.container h2 {
+    padding: 8px 20px;
+}
